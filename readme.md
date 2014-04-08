@@ -28,11 +28,11 @@ Please fork it to your repo.
 
 ### Analyzing Gestalt ###
 
-| Lecture                                         | Assignments                                                    |
-|-------------------------------------------------|----------------------------------------------------------------|
-|  [Introduction to Gestalt Theory][lecture1]     |  [Week 1][assignment1]                                         |
-|  [Outlines of Shapes][lecture2]                 |  [Week 2][assignment2]                                         |
-|  [Skeletons of Shapes][lecture3]                |  [Week 3][assignment3]                                         |
+| Lecture                                         | Assignments              |
+|:------------------------------------------------|:-------------------------|
+|  [Introduction to Gestalt Theory][lecture1]     |  [Week 1][assignment1]   |
+|  [Outlines of Shapes][lecture2]                 |  [Week 2][assignment2]   |
+|  [Skeletons of Shapes][lecture3]                |  [Week 3][assignment3]   |
 
 ### Coding Gestalt ###
 
