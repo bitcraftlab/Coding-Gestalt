@@ -4,7 +4,7 @@ Coding Gestalt. Gestalting Code
 
 ## About ##
 
-This is the Github repository for the course `Coding Gestalt - Gestalting Code` at
+This is the Github repository for the course **Coding Gestalt - Gestalting Code** at
 Bauhaus-Uni Weimar.
 
 
