@@ -1,4 +1,4 @@
-Coding Gestalt. Gesta	lting Code
+Coding Gestalt. Gestalting Code
 ===============================
 
 
