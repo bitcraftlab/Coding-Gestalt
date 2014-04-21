@@ -59,10 +59,10 @@ Check out the [Video Loops Example](https://github.com/bitcraftlab/videosource/t
 
 ## Exercises
 
-* [Exercise 01](exercise/coding_gestalt__exercise_02_01__red_green_blue_camera) — RGB Camera
-* [Exercise 02](exercise/coding_gestalt__exercise_02_02__flip_flop_camera) — Flip Flop Camera
-* [Exercise 03](exercise/coding_gestalt__exercise_02_03__filter_camera) — Filter Camera
-* [Exercise 04](exercise/oding_gestalt__exercise_02_04__filling_shapes) — Filling Shapes
+* [Exercise 01](exercises/coding_gestalt__exercise_02_01__red_green_blue_camera) — RGB Camera
+* [Exercise 02](exercises/coding_gestalt__exercise_02_02__flip_flop_camera) — Flip Flop Camera
+* [Exercise 03](exercises/coding_gestalt__exercise_02_03__filter_camera) — Filter Camera
+* [Exercise 04](exercises/oding_gestalt__exercise_02_04__filling_shapes) — Filling Shapes
 
 ## Solutions
 
@@ -70,7 +70,7 @@ Check out the [Video Loops Example](https://github.com/bitcraftlab/videosource/t
 [![Solution 01 Image][]][Solution 01]
 
 
-### [Solution 02][] — Flip Flop Camer
+### [Solution 02][] — Flip Flop Camera
 [![Solution 02 Image][]][Solution 02]
 
 ### [Solution 03][] — Filter Camera
