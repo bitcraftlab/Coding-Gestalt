@@ -26,12 +26,6 @@ Check out the [tools](../tools) section of our repo.
 * What's in a Pixel?
 * Simple Image Transformations
 
-### Camera Exercises
-
-* [Exercise 01](exercise/coding_gestalt__exercise_02_01__red_green_blue_camera) — RGB Camera
-* [Exercise 02](exercise/coding_gestalt__exercise_02_02__flip_flop_camera) — Flip Flop Camera
-* [Exercise 03](exercise/coding_gestalt__exercise_02_03__filter_camera) — Filter Camera
-
 
 ## Using Video
 
@@ -51,7 +45,7 @@ Check out the [Video Loops Example](https://github.com/bitcraftlab/videosource/t
 3. Remove Shapes
 4. Repeat
 
-### Chain Codes and Turtle Walks
+## Chain Codes and Turtle Walks
 
 * Freeman-Code (Chain Code)
   *  [Turtle Walks](https://github.com/craftoid/devart-template/blob/master/project_posts/2014-03-25-inspiration.md)  — Meandering Code Project 
@@ -63,11 +57,32 @@ Check out the [Video Loops Example](https://github.com/bitcraftlab/videosource/t
 * [Chain Code Extraction](http://www.openprocessing.org/sketch/30018) — Open Processing Sketch by Golan Levin
 
 
-### Exercises
+## Exercises
 
+* [Exercise 01](exercise/coding_gestalt__exercise_02_01__red_green_blue_camera) — RGB Camera
+* [Exercise 02](exercise/coding_gestalt__exercise_02_02__flip_flop_camera) — Flip Flop Camera
+* [Exercise 03](exercise/coding_gestalt__exercise_02_03__filter_camera) — Filter Camera
 * [Exercise 04](exercise/oding_gestalt__exercise_02_04__filling_shapes) — Filling Shapes
-* [Exercise 05](exercise/oding_gestalt__exercise_02_05__tracing_shapes) — Tracing Shapes
-* [Exercise 06](exercise/oding_gestalt__exercise_02_05__nested_shapes)  — Nested Shapes
+
+## Solutions
+
+### [Solution 01][] — RGB Camera
+[![Solution 01 Image][]][Solution 01]
+
+### [Solution 02][] — Flip Flop Camera
+[![Solution 02 Image][]][Solution 02]
+
+### [Solution 03][] — Filter Camera
+[![Solution 03 Image][]][Solution 03]
+
+
+[Solution 01]:	solutions/coding_gestalt__exercise_02_01__red_green_blue_camera
+[Solution 02]:	solutions/coding_gestalt__exercise_02_02__flipflop_camera
+[Solution 03]:	solutions/coding_gestalt__exercise_02_03__filter_camera
+
+[Solution 01 Image]:	solutions/coding_gestalt__exercise_02_01__red_green_blue_camera.png
+[Solution 02 Image]:	solutions/coding_gestalt__exercise_02_02__flip_flop_camera.png
+[Solution 03 Image]:	solutions/coding_gestalt__exercise_02_03__filter_camera.png
 
 
 
