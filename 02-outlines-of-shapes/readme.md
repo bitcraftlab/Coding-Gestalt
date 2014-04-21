@@ -69,20 +69,22 @@ Check out the [Video Loops Example](https://github.com/bitcraftlab/videosource/t
 ### [Solution 01][] — RGB Camera
 [![Solution 01 Image][]][Solution 01]
 
-### [Solution 02][] — Flip Flop Camera
+
+### [Solution 02][] — Flip Flop Camer
 [![Solution 02 Image][]][Solution 02]
 
 ### [Solution 03][] — Filter Camera
 [![Solution 03 Image][]][Solution 03]
 
 
-[Solution 01]:	solutions/coding_gestalt__exercise_02_01__red_green_blue_camera
-[Solution 02]:	solutions/coding_gestalt__exercise_02_02__flipflop_camera
-[Solution 03]:	solutions/coding_gestalt__exercise_02_03__filter_camera
 
-[Solution 01 Image]:	solutions/coding_gestalt__exercise_02_01__red_green_blue_camera.png
-[Solution 02 Image]:	solutions/coding_gestalt__exercise_02_02__flip_flop_camera.png
-[Solution 03 Image]:	solutions/coding_gestalt__exercise_02_03__filter_camera.png
+[Solution 01]:solutions/coding_gestalt__exercise_02_01__red_green_blue_camera
+[Solution 02]:solutions/coding_gestalt__exercise_02_02__flipflop_camera
+[Solution 03]:solutions/coding_gestalt__exercise_02_03__filter_camera
+
+[Solution 01 Image]:solutions/coding_gestalt__exercise_02_01__red_green_blue_camera.png
+[Solution 02 Image]:solutions/coding_gestalt__exercise_02_02__flip_flop_camera.png
+[Solution 03 Image]:solutions/coding_gestalt__exercise_02_03__filter_camera.png
 
 
 
