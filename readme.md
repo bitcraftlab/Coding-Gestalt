@@ -59,8 +59,8 @@ You will get to know the tools of the trade.
 **Note:** To run the code samples included in those sections, you will need a video camera.
 
 * Programming in Processing
-  * [Processing + Standard Filters][tool1]
-  * [Processing + DIY Filters][tool2]
+  * [Processing + DIY Filters][tool1]
+  * [Processing + Standard Filters][tool2]
   * [Processing + GPU Filters][tool3]
   * [Processing + OpenCV][tool4]
   * [Processing + ImageJ][tool5]
@@ -110,8 +110,8 @@ You will get to know the tools of the trade.
 [assignment14]: 14-live-coding-performance/exercises
 
 
-[tool1]: tools/processing/01-processing-std-filters
-[tool2]: tools/processing/02-processing-diy-filters
+[tool1]: tools/processing/01-processing-diy-filters
+[tool2]: tools/processing/02-processing-std-filters
 [tool3]: tools/processing/03-processing-gpu-filters
 [tool4]: tools/processing/04-processing-opencv
 [tool5]: tools/processing/05-processing-imagej
