@@ -8,8 +8,6 @@ Examples of OpenCV-Filters for Image Processing.
 
 ### [Example 01][] — Dilation and Erosion
 
-![Example 01 Image][]
-
 ### [Example 02][] — Find Edges
 
 ![Example 02 Image][]
