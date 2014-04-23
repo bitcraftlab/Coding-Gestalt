@@ -1,8 +1,4 @@
 .DS_Store
 
-# ignore all solutions
-/*/solutions/*
-
-# except for readme files and some jpgs
-!/*/solutions/readme.md
-!/*/solutions/*.jpg
+# ignore pngs in the solution folder
+/*/solutions/*.png
