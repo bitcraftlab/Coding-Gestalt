@@ -25,7 +25,7 @@ Answer the following questions:
 
 Can you reconstruct the original shape from a skeleton?
 
-[Solution 01]:(coding_gestalt__exercise_02_01__silhouette)
-[Solution 02]:(coding_gestalt__exercise_02_02__image_thinning)
-[Solution 03]:(coding_gestalt__exercise_02_03__skeltonization)
-[Solution 04]:(coding_gestalt__exercise_02_04__growing_muscles)
+[Solution 01]:coding_gestalt__exercise_02_01__silhouette
+[Solution 02]:coding_gestalt__exercise_02_02__image_thinning
+[Solution 03]:coding_gestalt__exercise_02_03__skeltonization
+[Solution 04]:coding_gestalt__exercise_02_04__growing_muscles
