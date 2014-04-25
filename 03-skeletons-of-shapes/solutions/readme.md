@@ -1,4 +1,4 @@
-Solutions — Skeletons of Shapes
+Solutions 03 — Skeletons of Shapes
 ===============================### [Solution 01][] — Create a Silhouette
 1. Create a Silhouette + Document the process (1 image, 3 sentences)
 2. Turn the silouette into a 400x400 PNG
@@ -25,7 +25,7 @@ Answer the following questions:
 
 Can you reconstruct the original shape from a skeleton?
 
-[Solution 01]:coding_gestalt__exercise_02_01__silhouette
-[Solution 02]:coding_gestalt__exercise_02_02__image_thinning
-[Solution 03]:coding_gestalt__exercise_02_03__skeltonization
-[Solution 04]:coding_gestalt__exercise_02_04__growing_muscles
+[Solution 01]:coding_gestalt__exercise_03_01__silhouette
+[Solution 02]:coding_gestalt__exercise_03_02__image_thinning
+[Solution 03]:coding_gestalt__exercise_03_03__skeltonization
+[Solution 04]:coding_gestalt__exercise_03_04__growing_muscles
