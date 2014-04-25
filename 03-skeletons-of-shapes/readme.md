@@ -157,31 +157,12 @@ For going back in time you either need to keep track of previous steps (and reve
    * Show several runs of your algorithm side by side
    * Show the result of your algorithm when applied to different inputs
    ## Exercises
-### Exercise 01 — Crate a Silhouette
-1. Create a Silhouette + Document the process (1 image, 3 sentences)
-2. Turn the silouette into a 400x400 PNG
-3. Create a Processing sketch to display the image
 
-### Exercise 02 — Image Thinning
+Exercises can be found [here](exercises).
 
-1. Pick one of those approaches 
-2. Implement it in Processing
-3. Visualize the Process of Thinning
+## Solutions
 
-### Exercise 03 — Skeletonization
-
-1. Write a function that identifies critical pixels
-   (i.e. Pixels which cannot be deleted without changing the topology)
-2. Use the function to turn your thinning algorithm into a skeletonization algorithm
-
-Answer the following questions:
-
-* What makes a "good" skeleton
-* Does your algorithm create a good skeleton. Why?
-
-### Exercise 04 — Growing Muscles
-
-Can you reconstruct the original shape from a skeleton?
+Solutions can be found [here](solutions).
 
 
 ## Literature
