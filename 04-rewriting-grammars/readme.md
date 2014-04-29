@@ -13,7 +13,7 @@ Rewriting Grammars
 
 [Bruchrechentafel für Blinde](https://archive.org/stream/derblindenunterr00alex#page/112/mode/1up)
 
-![Fraction Bars](https://pbs.twimg.com/media/BcsmzRWCcAEl9Yw.jpg =500x)
+![Fraction Bars](https://pbs.twimg.com/media/BcsmzRWCcAEl9Yw.jpg)
 
 [Wiener Bruchrechentafel auf Thingiverse](http://www.thingiverse.com/thing:218491)
 
