@@ -1,0 +1,7 @@
+
+startshape B
+
+rule B { 
+	SQUARE {  } 
+	SQUARE { b 1 r 45 s .5 } 
+}
