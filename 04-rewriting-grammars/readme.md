@@ -72,6 +72,7 @@ Rewriting Grammars
 ### Lindenmeyer Systems
 
 * Processing Library
+* [3D Hilbert Curve](http://www.openprocessing.org/sketch/7291) (Open Processing)
 
 ### Context Free Grammars
 
