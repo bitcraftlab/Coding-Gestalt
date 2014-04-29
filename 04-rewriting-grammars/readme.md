@@ -5,7 +5,7 @@ Rewriting Grammars
 
 ### Fröbels Spielgaben
 
-![Spielgaben](https://pbs.twimg.com/media/BdVaiAbCMAALdUl.jpg =500x)
+![Spielgaben](https://pbs.twimg.com/media/BdVaiAbCMAALdUl.jpg)
 
 [Friedrich Fröbel](http://de.wikipedia.org/wiki/Friedrich_Fr%C3%B6bel)
 
@@ -26,11 +26,11 @@ Rewriting Grammars
 
 [Anchor Stone Blocks](http://en.wikipedia.org/wiki/Anchor_Stone_Blocks)
 
-![Anker Steinbaukasten](http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Anker_Steinbaukasten_4_003.JPG/640px-Anker_Steinbaukasten_4_003.JPG =500x)
+![Anker Steinbaukasten](http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Anker_Steinbaukasten_4_003.JPG/640px-Anker_Steinbaukasten_4_003.JPG)
 
 [Unbekannter Entwurf 80](http://www.ankerstein.ch/downloads/)
 
-![](https://pbs.twimg.com/media/BmYn2FNCMAA38sj.png =500x)
+![](https://pbs.twimg.com/media/BmYn2FNCMAA38sj.png)
 
 * Inspired by Fröbel
 * Made in Rudolstadt, Thüringen
@@ -40,13 +40,13 @@ Rewriting Grammars
 
 ### Stiny's Shape Grammars
 
-![](https://pbs.twimg.com/media/Bd8OftCCIAAbwDz.png =500x)
+![](https://pbs.twimg.com/media/Bd8OftCCIAAbwDz.png)
 
 * [Kindergarden Grammars][STI80] (PDF)
 
 ### Lindenmeyer Systems
 
-![](http://algorithmicbotany.org/banner.jpg =500x)
+![](http://algorithmicbotany.org/banner.jpg)
 
 * [Algorithmic Botany Group](http://algorithmicbotany.org) (Website)
 * [The Algorithmic Beauty of Plants][LIN90] (PDF)
@@ -59,12 +59,12 @@ Rewriting Grammars
 
 * [Context Free Art Page](http://www.contextfreeart.org/)
 
-![](http://n-hamaguch.img.jugem.jp/20091017_1144138.jpg =500x)
+![](http://n-hamaguch.img.jugem.jp/20091017_1144138.jpg)
 
 
 ### Structure Synth
 
-![](http://structuresynth.sourceforge.net/images/ss1.jpg =500x)
+![](http://structuresynth.sourceforge.net/images/ss1.jpg)
 
 
 ## Hands-On
