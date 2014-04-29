@@ -78,6 +78,7 @@ Rewriting Grammars
 
 * Structure Synth
 * Context Free
+* [Context Free Art Cheatsheet](http://glyphic.s3.amazonaws.com/cfa/download/CF%20nutshell%20A4.pdf) (PDF)
 
 ### Subdivision Systems
 
