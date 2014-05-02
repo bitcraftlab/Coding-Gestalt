@@ -90,6 +90,9 @@ Rewriting Grammars
 * Aristid Lindenmeyer: [The Algorithmic Beauty of Plants][LIN90], 1990
 * Stiny and Gibbs: [Kindergarden Grammars][STI80], 1980
 
+## Exercises
+
+You can find the exercises [here](exercises/readme.md)
 
 [LIN90]:http://algorithmicbotany.org/papers/abop/abop.pdf
 [STI80]:http://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf
