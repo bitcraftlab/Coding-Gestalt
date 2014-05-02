@@ -35,8 +35,8 @@ Please fork it to your repo.
 |  [Outlines of Shapes][lecture2]                     |  [Exercises][assignment2]   |
 |  [Skeletons of Shapes][lecture3]                    |  [Exercises][assignment3]   |
 |  **Coding Gestalt**                                 |                             |
-|  [Tiling Systems][lecture4]                         |  [Exercises][assignment4]   |
-|  [Rewritig Grammars][lecture5]                      |  [Exercises][assignment5]   |
+|  [Rewritig Grammars][lecture4]                      |  [Exercises][assignment4]   |
+|  [Tiling Systems][lecture5]                         |  [Exercises][assignment5]   |
 |  [Complexity and Symmetry][lecture6]                |  [Exercises][assignment6]   |
 |  [Code and Compression][lecture7]                   |  [Exercises][assignment7]   |
 |  **Generating Code**                                |                             |
@@ -81,8 +81,8 @@ You will get to know the tools of the trade.
 [lecture1]: 01-introduction-to-gestalt-theory
 [lecture2]: 02-outlines-of-shapes
 [lecture3]: 03-skeletons-of-shapes
-[lecture4]: 04-tiling-systems
-[lecture5]: 05-rewriting-grammars
+[lecture4]: 04-rewriting-grammars
+[lecture5]: 05-tiling-systems
 [lecture6]: 06-complexity-and-symmetry
 [lecture7]: 07-code-and-complexity
 [lecture8]: 08-generating-visual-form
