@@ -1,12 +1,16 @@
 Exercises — Rewriting Grammars
 ==============================
 ### [Exercise 01][] — Lindenmeyer System
-1. Download the [3D Hilbert-Curve Example][Link11] from OpenProcessing
-2. Pick one of the two tasks below:
+1. Install the [LSystem Library][Link11] by Martin Prout   * install it in your `Processing/libraries` folder (See [here][Link12])
+   * restart Processing
+2. Run the [3D Hilbert Curve Example][Exercise 01] included in the exercise folder.  
+   You should also be able to find this example inside the library examples:
+   
+   ![](lsystem-library-examples.png)
+   
+3. Pick one of the two tasks below:
    * Modify the interpretation to create your own visual  
    * Modify the ruleset to create your own structure
-
-
 
 ### [Exercise 02][] — Context Free Art
 
@@ -32,7 +36,8 @@ Exercises — Rewriting Grammars
 [Exercise 04]:coding_gestalt__exercise_04_04__contextfree_p5
 
 
-[Link11]:http://www.openprocessing.org/sketch/7291
+[Link11]:https://kenai.com/projects/l-system-utilities/downloads
+[Link12]:http://wiki.processing.org/w/How_to_Install_a_Contributed_Library
 
 [Link21]:http://www.contextfreeart.org/
 [Link22]:http://glyphic.s3.amazonaws.com/cfa/download/CF%20nutshell%20A4.pdf
