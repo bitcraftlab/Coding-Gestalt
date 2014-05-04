@@ -97,8 +97,8 @@ You will get to know the tools of the trade.
 [assignment1]: 01-introduction-to-gestalt-theory/exercises
 [assignment2]: 02-outlines-of-shapes/exercises
 [assignment3]: 03-skeletons-of-shapes/exercises
-[assignment4]: 04-tiling-systems/exercises
-[assignment5]: 05-rewriting-grammars/exercises
+[assignment4]: 04-rewriting-grammars/exercises
+[assignment5]: 05-tiling-systems/exercises
 [assignment6]: 06-complexity-and-symmetry/exercises
 [assignment7]: 07-code-and-compression/excercises
 [assignment8]: 08-generating-visual-form/exercises
