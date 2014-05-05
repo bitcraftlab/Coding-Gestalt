@@ -1,0 +1,52 @@
+//
+//		hexagon_tree.cfdg — mod of mtree.cfdg
+//		
+
+CF::Background = [hue 200 b -.8 sat 1] // night sky
+import i_polygons.cfdg
+
+startshape TREE
+
+dist = 1.0
+angle = 10
+
+shape TREE
+{
+	EITHER []
+}
+
+// draw both branches
+shape BOTH
+{
+	BL [rotate angle]
+	BL [rotate -angle flip 90]
+}
+
+shape EITHER
+rule {BL[]}
+rule {BL[flip 90]}
+
+shape BL
+{
+	WL [size 0.95 y dist]
+	STAR [b 1]
+}  
+
+// hexagon + alpha = star
+shape STAR
+{
+	HEXAGON [alpha -0.66]
+} 
+
+// use the function defined in i_polygons.cfdg
+shape HEXAGON
+{
+	polygon6sided [r 30]
+}
+
+
+shape WL
+rule 10 {BL [rotate randint(3, 8)]}
+rule {BOTH []}
+rule {BL [rotate -10 flip 90]}
+
