@@ -11,7 +11,7 @@ void draw() {
   background(0);
   randomSeed(0);
   
-  int boxsize = (mouseX % 50) + 1;
+  int boxsize = (mouseX % 40) + 10;
   int ymax = width / boxsize;
   int xmax = height / boxsize;
   noStroke();
