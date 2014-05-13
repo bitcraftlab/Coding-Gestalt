@@ -112,6 +112,19 @@ void keyPressed() {
   case '3':
     sym = 3;
     break;
+  
+  case '4':
+    sym = 4;
+    break;
+    
+   case '5':
+    sym = 5;
+    break;
+    
+   case '6':
+    sym = 5;
+    break;
+    
     
   case 'r':
     tile = RECTILE;

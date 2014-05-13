@@ -8,18 +8,31 @@ PMatrix getSymmetry(int symmetry, int idx) {
   
   switch(symmetry) {
     
-    case 1: 
+    // http://www.cwu.edu/~lundin/Courses/notebydate550/pics/frieze%20group.jpg
+    
+    case 1: // F1
       // Unit matrix
       m.set(1, 0, 0, 0, 1, 0);
       break;
       
-     case 2:
-       m.set(-1, 0, 1, 0, 1, 0);
-       break;
-       
-     case 3:
+             
+     case 2: // F2
        m.set(1, 0, 0, 0, -1, 1);
        break;
+      
+     case 3: // F3
+       m.set(-1, 0, 1, 0, 1, 0);
+       break;
+
+     case 4: // F4
+       break;
+       
+     case 5: // F5
+       break;
+       
+      case 6: // F6
+       break;
+       
        
   }
 
