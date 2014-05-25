@@ -2,3 +2,4 @@
 
 # ignore pngs in the solution folder
 /*/solutions/*.png
+/tmp/*
