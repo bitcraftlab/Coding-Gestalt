@@ -3,8 +3,8 @@ Exercises — Code and Compression
 
 ### [Exercise 01][] – Run Length Encoding
 
-1. Create a function to save black + white Images in RLE format
-2. Create a function to load black + white Images in RLE format
+1. Create a function to save a 400 x 400 pixel, grayscale image in RLE format
+2. Create a function to load a 400 x 400 pixel, grayscale image in RLE format
 
 ### [Exercise 02][] – Delta Encoding
 
