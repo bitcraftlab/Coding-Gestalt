@@ -45,6 +45,7 @@ Check out the [Video Loops Example](https://github.com/bitcraftlab/videosource/t
 3. Remove Shapes
 4. Repeat
 
+
 ## Chain Codes and Turtle Walks
 
 * Freeman-Code (Chain Code)
@@ -59,35 +60,12 @@ Check out the [Video Loops Example](https://github.com/bitcraftlab/videosource/t
 
 ## Exercises
 
-* [Exercise 01](exercises/coding_gestalt__exercise_02_01__red_green_blue_camera) — RGB Camera
-* [Exercise 02](exercises/coding_gestalt__exercise_02_02__flip_flop_camera) — Flip Flop Camera
-* [Exercise 03](exercises/coding_gestalt__exercise_02_03__filter_camera) — Filter Camera
-* [Exercise 04](exercises/coding_gestalt__exercise_02_04__filling_shapes) — Filling Shapes
+Exercises can be found [here](exercises).
+
 
 ## Solutions
 
-### [Solution 01][] — RGB Camera
-[![Solution 01 Image][]][Solution 01]
-
-
-### [Solution 02][] — Flip Flop Camera
-[![Solution 02 Image][]][Solution 02]
-
-### [Solution 03][] — Filter Camera
-[![Solution 03 Image][]][Solution 03]
-
-### [Solution 04][] — Filling Shapes
-
-
-[Solution 01]:solutions/coding_gestalt__exercise_02_01__red_green_blue_camera
-[Solution 02]:solutions/coding_gestalt__exercise_02_02__flip_flop_camera
-[Solution 03]:solutions/coding_gestalt__exercise_02_03__filter_camera
-[Solution 04]:solutions/coding_gestalt__exercise_02_04__filling_shapes
-
-[Solution 01 Image]:solutions/coding_gestalt__exercise_02_01__red_green_blue_camera.jpg
-[Solution 02 Image]:solutions/coding_gestalt__exercise_02_02__flip_flop_camera.jpg
-[Solution 03 Image]:solutions/coding_gestalt__exercise_02_03__filter_camera.jpg
-
+Solutions can be found [here](solutions).
 
 
 
