@@ -33,12 +33,12 @@ Alternatively you can rent a sensor from our [Equipment](http://www.uni-weimar.d
 
 *BodyFuck (Kinect)*
 
-![](http://nikhanselmann.com/content/3.projects/20.bodyfuck/01.jpg =400x253)  
+![](http://nikhanselmann.com/content/3.projects/20.bodyfuck/01.jpg)  
 [Project Site](http://nikhanselmann.com/?/projects/bodyfuck/) + [Video](http://vimeo.com/7133810)
 
 *Airharp (LEAP Motion)*
 
-![](http://a.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2013/07/3014602-inline-s-6-leap-motion-ships-today-its-magic-but-you-still-need-your-mouse.jpg =400x222)
+![](http://a.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2013/07/3014602-inline-s-6-leap-motion-ships-today-its-magic-but-you-still-need-your-mouse.jpg)
 
 [Project Site](https://ccrma.stanford.edu/~adam/airharp/) + [Video](https://www.youtube.com/watch?v=U2HFcfOwDtI)
 
@@ -69,7 +69,7 @@ You may also use one of the various *Quantified Self* devices, or download a dat
 
 #### Example ####
 
-![](http://www.glimmerveen.nl/Loes/04_babysleep.jpg =320x320)
+![](http://www.glimmerveen.nl/Loes/04_babysleep.jpg)
 
 #### Literature #####
 
@@ -98,19 +98,19 @@ The temporal dimension turning weather data into works of art ...
 
 *Wind Map*
 
-![](http://www.k2g2.org/_media/blog:bit.craft:flowmaps_windmap.png?w=400)
+![](http://www.k2g2.org/_media/blog:bit.craft:flowmaps_windmap.png?w=600)
 
 See the [Live Wind Map](http://hint.fm/wind/)
 
 *River Map*
 
-![](https://pbs.twimg.com/media/BokirXZCIAAWCVZ.jpg =200x400)
+![](https://pbs.twimg.com/media/BokirXZCIAAWCVZ.jpg)
 
 courtsey of [Oregon Lidar Consorcium](http://www.oregongeology.org/sub/projects/olc/)
 
 *Fire Map*
 
-![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Rodeo-Chediski_Fire.jpg/306px-Rodeo-Chediski_Fire.jpg)
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Rodeo-Chediski_Fire.jpg/611px-Rodeo-Chediski_Fire.jpg)
 
 * [Live Fire Mapper](https://firms.modaps.eosdis.nasa.gov/firemap/)
 * [MODIS Fire Data](http://modis-fire.umd.edu/)
@@ -126,14 +126,14 @@ But at the same time there are networks of cameras on the ground observing the s
 
 *All Sky Camera Networks*
 
-![](http://fireballs.ndc.nasa.gov/events/20140519/ev_20140519_042714A_14A.png =320x240)
+![](http://fireballs.ndc.nasa.gov/events/20140519/ev_20140519_042714A_14A.png)
 
 * [NASA Fireballs Project](http://fireballs.ndc.nasa.gov/)
 * [SETI Cams](http://cams.seti.org/)
 
 *A History of the Sky*
 
-![](http://what-when-how.com/wp-content/uploads/2012/06/tmp833155_thumb_thumb.png =320x240)
+![](http://what-when-how.com/wp-content/uploads/2012/06/tmp833155_thumb_thumb.png)
 
 * [History of the Sky website](http://www.murphlab.com/hsky/)
 * [Tutorial at What-When-How](http://what-when-how.com/non-traditional-animation-techniques/time-lapse-photography-non-traditional-animation-techniques-part-1/)
@@ -158,7 +158,7 @@ HaarCascades are *classifiers* that can be trained to recognize (and track) the 
 
 #### Examples ####
 
-![Screenshot](https://raw.github.com/ubilabs/soccer-debs-challenge/master/paper/soccer.png =400x282)
+![Screenshot](https://raw.github.com/ubilabs/soccer-debs-challenge/master/paper/soccer.png)
 
 * [Realtime Soccer DataViz](https://github.com/ubilabs/soccer-debs-challenge) + [Video](http://www.youtube.com/watch?v=3SBIFFqjle4) by Martin Kleppe
 * [Soccer Tracking Data](http://www.orgs.ttu.edu/debs2013/index.php?goto=cfchallengedetails) from RedFir by Frauenhofer IIS
@@ -177,19 +177,19 @@ HaarCascades are *classifiers* that can be trained to recognize (and track) the 
 
 [*Flickr Flow*](http://hint.fm/projects/flickr/)
 
-![](http://hint.fm/projects/flickr/flickr1.jpg =320x320)  
+![](http://hint.fm/projects/flickr/flickr1.jpg)  
 
 [*Movie Barcode*](http://moviebarcode.tumblr.com/)
 
-![](http://37.media.tumblr.com/40f1d53c8e793aea888f13e03d99a261/tumblr_n4y942zpz21qhtovio1_1280.jpg =320x120)
+![](http://37.media.tumblr.com/40f1d53c8e793aea888f13e03d99a261/tumblr_n4y942zpz21qhtovio1_1280.jpg)
 
 [*Emergent Orange*](http://krazydad.com/blog/2013/12/05/emergent-orange/)
 
-![](https://pbs.twimg.com/media/BjDERcJCQAAfWja.jpg =320x320)
+![](https://pbs.twimg.com/media/BjDERcJCQAAfWja.jpg)
 
 [*Color Forecast*](http://www.pimkiecolorforecast.com/) + [Video](http://vimeo.com/39840595) by [Pedro Miguel Cruz](http://pmcruz.com/)
 
-![](http://1.bp.blogspot.com/-uBu2tvynJjE/T7AbkFOCoCI/AAAAAAAAAoY/r5XPNpDxgJg/s320/colorforecast_5.JPG)
+![](http://1.bp.blogspot.com/-uBu2tvynJjE/T7AbkFOCoCI/AAAAAAAAAoY/r5XPNpDxgJg/s600/colorforecast_5.JPG)
 
 ## Data in this Repo ##
 
