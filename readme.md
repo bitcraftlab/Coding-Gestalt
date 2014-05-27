@@ -84,7 +84,7 @@ You will get to know the tools of the trade.
 [lecture4]: 04-rewriting-grammars
 [lecture5]: 05-tiling-systems
 [lecture6]: 06-complexity-and-symmetry
-[lecture7]: 07-code-and-complexity
+[lecture7]: 07-code-and-compression
 [lecture8]: 08-generating-visual-form
 [lecture9]: 09-sculptural-composition
 [lecture10]: 10-composing-sonic-form
