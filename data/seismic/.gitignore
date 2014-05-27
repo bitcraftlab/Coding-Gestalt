@@ -1,4 +1,4 @@
 *
 !.gitignore
 !Aegean_Sea
-!Aegean_Sea/*
+!Aegean_Sea/**
