@@ -195,9 +195,9 @@ HaarCascades are *classifiers* that can be trained to recognize (and track) the 
 
 This repo contains three folders:
 
-* [circadian]() - containing data from [Circadian.org](http://www.circadian.org/data.html)
-* [seismic]() - drop your seismic data files here.
-* [soccer]() - get [full-game.gz][] (2.7 GB) and extract it here.
+* [circadian](circadian) - containing data from [Circadian.org](http://www.circadian.org/data.html)
+* [seismic](seismic) - drop your seismic data files here.
+* [soccer](soccer) - get [full-game.gz][] (2.7 GB) and extract it here.
 
 Our processing sketches will reference this folder to access the data.  
 If the data is not there, you may get unexpected errors...
