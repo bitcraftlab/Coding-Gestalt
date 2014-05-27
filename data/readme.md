@@ -191,5 +191,16 @@ HaarCascades are *classifiers* that can be trained to recognize (and track) the 
 
 ![](http://1.bp.blogspot.com/-uBu2tvynJjE/T7AbkFOCoCI/AAAAAAAAAoY/r5XPNpDxgJg/s320/colorforecast_5.JPG)
 
+## Data in this Repo ##
+
+This repo contains three folders:
+
+* [circadian]() - containing data from [Circadian.org](http://www.circadian.org/data.html)
+* [seismic]() - drop your seismic data files here.
+* [soccer]() - get [full-game.gz][] (2.7 GB) and extract it here.
+
+Our processing sketches will reference this folder to access the data.  
+If the data is not there, you may get unexpected errors...
 
 
+[full-game.gz]: http://lafayette.tosm.ttu.edu/debs2013/grandchallenge/full-game.gz
