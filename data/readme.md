@@ -52,7 +52,7 @@ The SAC file format is a defacto standard for seismic data used by the SAC (Seis
 You may use the Global Earthquake explorer to obtain seismic data and save it in 
 SeisFile is a java library developed by the University of Southcarolina to load data from a SAC file (licensed GPL 3.0).
 
-* [Global Earthquake explorer](http://www.seis.sc.edu/gee/)
+* [Global Earthquake Explorer](http://www.seis.sc.edu/gee/)
 * [SeisFile library](http://www.seis.sc.edu/seisFile.html)
 * [SAC Manual](http://www.iris.edu/files/sac-manual/)
 * [SAC Software](http://www.iris.edu/dms/nodes/dmc/software/downloads/sac/)
