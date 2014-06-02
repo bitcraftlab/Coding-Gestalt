@@ -10,7 +10,7 @@ Exercises — Structural Composition
 ### [Exercise 02][] – Visual Form
 
 1. Write a sketch to receive the OSC signals created in the exercises
-2. Create a simple visulization
+2. Create a simple visualization
 3. Use Gestalt laws to group events and create more complex forms
 4. Visualize those forms in 2D
 
