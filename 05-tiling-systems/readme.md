@@ -19,15 +19,6 @@ If you are couragous you should also check out their 3D relatives, the **Layer G
 #### Frieze Groups ####
 
 * There are 7 Frieze Groups  
-* Groups by name:
-* [`p1`][p1],
-  [`p1m1`][p1m1],
-  [`p11m`][p11m],
-  [`p11g`][p11g], 
-  [`p2`][p2], 
-  [`p2mg`][p2mg],
-  [`p2mm`][p2mm]
-  
 * [Frize Group Tables](http://www2.physics.ox.ac.uk/sites/default/files/CrystalStructure_AllFriezes.pdf) (PDF)
 * Wikipedia on [Frieze Groups](http://en.wikipedia.org/wiki/Frieze_group)
   
