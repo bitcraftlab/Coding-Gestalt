@@ -33,7 +33,7 @@ for today's lecture.
 ![](https://pbs.twimg.com/media/BgJLLV1CYAACOpy.jpg)  
 [Parquet Deformation](http://www.designcoding.net/tag/parquet-deformation/) by Design Coding
 
-![](http://www.cgl.uwaterloo.ca/~csk/projects/morph/hilbert_ih62_a.png)
+![](http://www.cgl.uwaterloo.ca/~csk/projects/morph/hilbert_ih62_a.png)  
 [Fractal Parquet Deformation](http://www.cgl.uwaterloo.ca/~csk/projects/morph/) by Craig S. Kaplan
 
 
@@ -48,7 +48,7 @@ for today's lecture.
 
 [Ursula Damm](http://www.ursuladamm.de) has been using tiling systems as part of her construction process in serveal of her works.
 
-![](http://perceptify.com/geometric-alchemy/img/expected/aerial-2.jpg)
+![](http://perceptify.com/geometric-alchemy/img/expected/aerial-2.jpg)  
 
 * [In-Outsite](http://www.ursuladamm.de/inoutsite/geo.html) by Ursula Damm
 * [Geometric-Alchemy](http://www.perceptify.com/geometric-alchemy/) toolbox by Martin Schneider (Work in Progress)
