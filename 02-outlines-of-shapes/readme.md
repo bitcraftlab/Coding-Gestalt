@@ -48,9 +48,10 @@ Check out the [Video Loops Example](https://github.com/bitcraftlab/videosource/t
 
 ## Chain Codes and Turtle Walks
 
-* Freeman-Code (Chain Code)
-  *  [Turtle Walks](https://github.com/craftoid/devart-template/blob/master/project_posts/2014-03-25-inspiration.md)  — Meandering Code Project 
+![](https://web.archive.org/web/20140603052009/https://pbs.twimg.com/media/BjDSbtOCUAATn8e.png)
 
+*  [Turtle Walks](https://github.com/bitcraftlab/meandering-code/blob/master/project_posts/2014-03-25-inspiration.md)  — Meandering Code Project 
+* Freeman-Code (Chain Code)
 * [2D Neighborhood](http://en.wikibooks.org/wiki/Cellular_Automata/Neighborhood#2D_neighborhood) 
   * Moore (8 Neighbors)
   * Von Neumann (4 Neighbors)
@@ -66,6 +67,8 @@ Exercises can be found [here](exercises).
 ## Solutions
 
 Solutions can be found [here](solutions).
+
+
 
 
 
