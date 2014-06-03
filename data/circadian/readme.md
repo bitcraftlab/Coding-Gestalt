@@ -1,4 +1,4 @@
-# Circadian Data
+g# Circadian Data
 
 Circadian data from http://www.circadian.org/data.html
 
@@ -21,6 +21,8 @@ The files contain data on blood concentration of urea (in mmol/l) for individual
 Data resolution is 3 h. (Thus, each file contains 80 data points.)
 
 ### hamster ###
+
+![](hamster.png)
 
 This data set contains 6 files (hamster1.whl through hamster6.whl). 
 
