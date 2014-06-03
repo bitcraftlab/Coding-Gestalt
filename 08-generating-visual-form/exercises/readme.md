@@ -3,8 +3,6 @@ Exercises — Visual Form
 
 ### [Exercise 01][] – Seismic Data
 
-![](coding_gestalt__exercise_08_01__seismic_data.jpg)
-
 1. Download and Install the [Global Earthquake Explorer](http://www.seis.sc.edu/gee/)
 2. Export some data in SAC format + drop it in the data folder
 3. Create a sketch to visualize the data 
@@ -17,8 +15,6 @@ Exercises — Visual Form
 3. Identify events and display them
 
 ### [Exercise 03][] – IanniX
-
-![](http://www.iannix.org/wp-content/uploads/2011/10/324373_343853132304762_2016969661_o-505x318.jpg)
 
 1. Get the latest version of [IanniX](http://www.iannix.org/)
 2. Play some of the scores included in the examples
