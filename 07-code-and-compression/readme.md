@@ -21,9 +21,25 @@ Let's play the [Compression Game][]
 
 ## Run Length Encoding (RLE)
 
+#### Visual Example I ####
+![](solutions/coding_gestalt__exercise_07_01__runlength_encoding.jpg)
+
+The original image is on the left, runlength code in the center, decoded image on the right.  
+Each pixel corresponds to one token (or one byte).
+
+#### Visual Example II ####
+
+![](solutions/coding_gestalt__exercise_07_03__rle_glitch.jpg)
+
+Original image on the left, glitched runlength code in the center, decoded image on the right.
+
+
+#### Approach ####
+
 Identify repeating Tokens.
 
 * Scale Level: Tokens
+
 
 #### Encoding Example
 
@@ -44,13 +60,6 @@ Identify repeating Tokens.
    2. Fixed Token Size + Escape Codes (See also: UTF8)
    3. Seperator Token
 
- 
-#### Excercises
-
-* Create a function to save black + white Images in RLE format
-* Create a function to load black + white Images in RLE format
-* Glitch the Image
-
 ## Delta Encoding
 
 Identify Differences between successive Tokens
@@ -68,10 +77,6 @@ Identify Differences between successive Tokens
 * delta(`00000000000000000000`, -1) → `00000000000000000000`
 * delta(`11111111111111111111`, -1) → `1234567890123456789)0` 
 
-#### Exercises
-
-* Create a Turtle with a delta Decoder
-* Create a Turtle with a Delta Encoder
 
 ## Index Encoding
 
@@ -88,11 +93,10 @@ Identify Differences between successive Tokens
 
 
 
-## Frequency Encoding
+## Grammar Encoding
 
-Replace frequently used tokens by new tokens.
-
-* rewriting results in a Grammar ( → Grammar Based Encoding).
+* Replace frequently used tokens by new tokens (i.e. Frequency Encoding)
+* Rewrite results as a Grammar
 
 #### Encoding Example
 
@@ -100,14 +104,36 @@ Replace frequently used tokens by new tokens.
 * (1122112211221122112211) → (`34343434343`, `3` → `11`, `4`  → `22`)
 
 
-## LZW Encoding
 
-* Frequency + Index Encoding
+### LZW Encoding
+
+* Lempel-Ziv-Welch Encoding (LZW) = Frequency + Index Encoding
+* ZIP files!
+* [Lempel-Ziv-Welch](http://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Welch) (LZW) on Wikipedia
+
+### Sequitur
+
+* [The Algorithm](http://en.wikipedia.org/wiki/Sequitur_algorithm) on Wikipedia
+* [Sequitur Website](http://www.sequitur.info/) + Live Demo + Code in various languages!
+* [Inferring Sequential Structure](http://www.sequitur.info/Nevill-Manning.pdf) – PHD Thesis of Nevill-Manning (PDF)
+
+### Upwrite Predictor ###
+
+* [Upwrite Predictor](https://web.archive.org/web/20000817201718/http://ciips.ee.uwa.edu.au/~hutch/phd/) Project Site on Archive.org
+* [The UpWrite Predictor]( ) *A General Grammatical Inference Engine for Symbolic Time Series, with Applications in Natural Language Acquisition and Data Compression* – PHD Thesis of Jason Hutchens (PDF)
 
 ## Exercises
 
 Exercises can be found [here](exercises).
 
+## Solutions
+
+Solutions can be found [here](solutions).
+
+## Papers
+
+* [Papers on Grammar Based Coding](http://www.compression.ru/download/grammar.html) 
+* [Compression.RU](http://www.compression.ru/) – excellent resource (Russian)
 
 
 [Compression Game]:[../games/compression_game]
