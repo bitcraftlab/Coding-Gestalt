@@ -10,16 +10,12 @@ In this lecture you will learn how to:
 
 ## Setup
 
-----
 
-**Detector → Transmission → Composer** 
+| Detector → Transmission → Composer      |
+|-----------------------------------------|
+| *Detector*  — Detect Events in the Data |
+| *Composer*  —  Perceive + Create Forms  |
 
-----
-
-*Detector*  — Detect Events in the Data  
-*Composer*  —  Perceive + Create Forms
-
-----
 
 ### Detector
 
