@@ -40,7 +40,7 @@ If you are couragous you should also check out their 3D relatives, the **Layer G
 * [Spacegroup Visualizer](http://spacegroup.info/) (Windows only)
 
 ## Exercises ##
-The exercises can be found [here](exercises/readme.md).
+The exercises can be found [here](exercises).
 
 ## Lectures ##
 
