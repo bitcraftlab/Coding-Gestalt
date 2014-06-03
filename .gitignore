@@ -2,4 +2,5 @@
 
 # ignore pngs in the solution folder
 /*/solutions/*.png
+/*/exercises/*.png
 /tmp/*

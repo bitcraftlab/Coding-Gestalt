@@ -18,6 +18,7 @@ void setup() {
 void draw() {
  
   // do something with the data here ...
+  background(255);
   for(int i = 0; i < samples; i++) {
     float x = i / zoom;
     float y = map(data[i], ymin, ymax, 0, height);
