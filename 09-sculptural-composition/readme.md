@@ -12,7 +12,7 @@ In this lecture you will learn how to:
 
 ----
 
-**Detector ⟶ Transmission ⟶ Composer** 
+**Detector → Transmission → Composer** 
 
 ----
 
