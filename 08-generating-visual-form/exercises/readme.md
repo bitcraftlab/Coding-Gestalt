@@ -18,6 +18,8 @@ Exercises — Visual Form
 
 ### [Exercise 03][] – IanniX
 
+![](http://www.iannix.org/wp-content/uploads/2011/10/324373_343853132304762_2016969661_o-505x318.jpg)
+
 1. Get the latest version of [IanniX](http://www.iannix.org/)
 2. Play some of the scores included in the examples
 3. Run the processing sketch to receive and visualize the OSC signals
