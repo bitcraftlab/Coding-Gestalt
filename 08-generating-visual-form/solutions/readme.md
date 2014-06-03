@@ -3,11 +3,13 @@ Solutions — Visual Form
 
 ### [Solution 01a][] – Seismic Data
 
-#### Simple Data Visualization ####
 A simple plot of the data obtained from the Y-sensor of the
 seismograph.
 ![](coding_gestalt__exercise_08_01__seismic_data.jpg)
-#### Identifying Events ####
+
+
+### [Solution 01b][] – Seismic Data Events
+
 Events overlayed on the plot...
 ![](coding_gestalt__exercise_08_01__seismic_data_events.jpg)
 
