@@ -11,11 +11,11 @@ Data sources can be found [here](../data/readme.md).
 
 ### Sesimic Data
 
-![](exercises/coding_gestalt__exercise_08_01__seismic_data.jpg)
+![](solutions/coding_gestalt__exercise_08_01__seismic_data.jpg)
 
 ### Circadian Data
 
-...
+![](solutions/coding_gestalt__exercise_08_02__circadian_data.jpg)
 
 ### IanniX
 
