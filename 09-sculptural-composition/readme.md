@@ -54,13 +54,21 @@ Typical Event Attributes are:
 
 ## Open Sound Control
 
-### Demo
+...
 
+## Demos
+
+### OSC Demo
 [osc_mouse_demo](demo/osc_mouse_demo) shows how to hook up two sketches via OSC.  
 The demo is made up of two sketches, that need to run at the same time.
 
 [OSC_Red_Mouse](demo/osc_mouse_demo(OSC_Red_Mouse) listens on port 50000 and sends to port 50001.  
 [OSC_Blue_Mouse](demo/osc_mouse_demo(OSC_Blue_Mouse) listens on port 50001 and sends to port 50000.  
+
+### Schedule Demo
+The [schedule_demo](demo/schedule_demo) shows how to schedule events for a specific point in time after the sketch has started.  
+This is quite useful for replaying events in real time.
+
 
 ## Exercises 
 
