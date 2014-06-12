@@ -21,7 +21,6 @@
 //                                               //
 ///////////////////////////////////////////////////
 
-// (c) YOUR_NAME at Bauhaus-Uni Weimar
 import oscP5.*;
 import netP5.*;
 
