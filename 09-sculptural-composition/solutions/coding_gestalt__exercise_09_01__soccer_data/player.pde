@@ -84,9 +84,15 @@ class Player {
   void draw() {
     pushMatrix();
     PVector p = pos();
-    translate(p.x /100.0, p.y/100.0);
+    
+    //float x = p.x / 100.0;
+    //float y = -p.y / 100.0;
+    
+    float x = map(p.y, 0, 52483, 0, width);
+    float y = map(p.x, +33960, -33960, 0, height);
+    
     smooth(16);
-    ellipse(0, 0, 5, 5);
+    ellipse(x, y, 5, 5);
     popMatrix();
   }
   

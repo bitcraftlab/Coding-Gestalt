@@ -9,13 +9,25 @@
 
 
 // location where you should have downloaded the datafile
-String datafile = "../../../data/soccer/full-game.gz";
+String datafile = "../../../data/soccer/full-game";
 
 BufferedReader reader;
+PImage field;
+float zoom = 0.5;
+boolean paused;
+float playbackSpeed = 1500;
+
+/*
+int width = 400;
+int height = width * 52483 / (2 * 33960) ;
+*/
 
 void setup() {
+
+  field = loadImage("soccer.png"); 
+  size(int(field.width * zoom), int(field.height * zoom));
   
-  size(800, 400);
+
   
   // note that Processing will automagically unzip the file 
   // when reading it ...
@@ -143,10 +155,14 @@ void setup() {
 // read one line from the file every time we draw ...
 void draw() {
   
-  for(int i = 0; i < 1500; i++)
-  parseLine();
+  if(!paused) {
+    for(int i = 0; i < int(playbackSpeed); i++) {
+      parseLine();
+    }
+  }
   
   background(255);
+  image(field, 0, 0, width, height);
   
   // draw the playing field !
   
@@ -210,7 +226,23 @@ String readLine() {
 }
 
 
+
 long parseLong(String s) {
   return Long.parseLong(s, 10);
+}
+
+
+void keyPressed() {
+  switch(key) {
+     case ' ': 
+       paused =! paused;
+       break;
+     case '+':
+       playbackSpeed *= 2;
+       break;
+     case '-':
+       playbackSpeed /= 2;
+       break;
+  }
 }
 
