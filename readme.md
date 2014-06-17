@@ -43,6 +43,7 @@ Please fork it to your repo.
 |  [Generating Visual Form][lecture8]                 |  [Exercises][assignment8]   |
 |  [Sculptural Composition][lecture9]                 |  [Exercises][assignment9]   |
 |  [Composing Sonic Form][lecture10]                  |  [Exercises][assignment10]  |
+|  [OSC Jam Session][lecture10-2]                     |                             |
 |  [Textile Composition][lecture11]                   |  [Exercises][assignment11]  |
 |  **Gestalting Code**                                |                             |                          
 |  [Media Environments for Gestalt Coding][lecture12] |  [Exercises][assignment12]  |
@@ -88,6 +89,7 @@ You will get to know the tools of the trade.
 [lecture8]: 08-generating-visual-form
 [lecture9]: 09-sculptural-composition
 [lecture10]: 10-composing-sonic-form
+[lecture10-2]: 10-osc-jam-session
 [lecture11]: 11-textile-composition
 [lecture12]: 12-media-environments-for-gestalt-coding
 [lecture13]: 13-create-your-own-media-environment
