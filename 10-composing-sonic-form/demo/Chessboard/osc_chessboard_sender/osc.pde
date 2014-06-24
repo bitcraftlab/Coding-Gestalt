@@ -12,7 +12,7 @@ NetAddress remote;
 
 void setupOSC() {
    osc = new OscP5(this, localport);
-   remote = new NetAddress(localhost, remoteport);
+   remote = new NetAddress(remotehost, remoteport);
 }
 
 // has he mouse pointer entered a cell?
