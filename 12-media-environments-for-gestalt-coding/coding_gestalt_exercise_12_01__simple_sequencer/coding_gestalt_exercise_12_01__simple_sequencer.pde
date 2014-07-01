@@ -1,7 +1,7 @@
 
 
-int rows = 4;
-int cols = 6;
+int rows = 8;
+int cols = 12;
 float dx, dy;
 
 Sequencer sequencer = new Sequencer();
@@ -20,10 +20,13 @@ void setup() {
     }
   }
   
+  setupOSC();
+  
 }
 
 
 void draw() {
+  if(frameCount % 15 == 0) sequencer.step();
   sequencer.draw();
 }
 

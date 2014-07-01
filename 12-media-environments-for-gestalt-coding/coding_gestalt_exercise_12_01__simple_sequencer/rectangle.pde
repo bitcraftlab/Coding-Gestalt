@@ -4,7 +4,7 @@ class Rectangle {
   int x, y;
   color c;
   color hilite = color(255);
-  color lolite = color(100);
+  color lolite = color(200);
   boolean active;
 
   Rectangle(int x, int y) {
@@ -14,6 +14,7 @@ class Rectangle {
   }
 
   void draw() {
+    strokeWeight(1);
     fill(active ? hilite : lolite);
     rect(x * dx, y * dy, dx, dy);
   }
