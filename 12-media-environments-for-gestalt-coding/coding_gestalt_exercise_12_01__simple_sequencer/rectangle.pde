@@ -3,6 +3,9 @@ class Rectangle {
 
   int x, y;
   color c;
+  color hilite = color(255);
+  color lolite = color(100);
+  boolean active;
 
   Rectangle(int x, int y) {
     this.x = x;
@@ -11,7 +14,7 @@ class Rectangle {
   }
 
   void draw() {
-    fill(c);
+    fill(active ? hilite : lolite);
     rect(x * dx, y * dy, dx, dy);
   }
   
@@ -22,7 +25,7 @@ class Rectangle {
   }
   
   void mouseClicked() {
-    c = color(0); 
+    active = !active;
   }
   
 }
