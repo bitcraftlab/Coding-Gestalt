@@ -55,9 +55,17 @@ void draw()
 
 void keyPressed() 
 {
+  // trigger samples
   if(key >= '1' && key <= '1' + numSamples - 1) {
     int pick = key - '1';
     samples[pick].trigger();
+  }
+  
+  // mute all samples
+  if(key == ' ') {
+    for(int i = 0; i < numSamples; i++) {
+       samples[i].stop(); 
+    }
   }
 }
 
