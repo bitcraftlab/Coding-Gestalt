@@ -10,11 +10,13 @@ color cursorColor = color(255, 0, 0, 100);
 
 
 Mode mode = new PaintMode();
+Sequencer seq;
 
 void setup() {
   size(512, 512);
   strokeCap(ROUND);
   strokeJoin(ROUND);
+  setupOSC();
   reset();
 }
 
@@ -24,15 +26,22 @@ void draw() {
   noSmooth();
   image(img, 0, 0, w * d, h * d);
 
+  // update mouse coordinates
+  mode.update();
+  
+  // draw sequencer
+  seq.step();
+  seq.draw();
+
+  
   // draw headline
   fill(255, 0, 0, 200);
   noStroke();
   rect(0, 0, width, 30);
   fill(255);
   text(mode.info().toUpperCase(), 20, 20);
+    
 
-  // update mouse coordinates
-  mode.update();
   
   // draw the cursor
   smooth();
@@ -51,6 +60,7 @@ void draw() {
       line(0, y * d, width, y * d);
     }
   }
+
  
 }
 
@@ -63,6 +73,9 @@ void reset() {
   img.beginDraw();
   img.endDraw();
   lineMode = false;
+  
+  seq = new Sequencer(img);
+  
   
 }
 

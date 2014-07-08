@@ -61,3 +61,6 @@ void captureEvent(Capture c) {
   c.read();
 }
 
+void keyPressed() {
+  faceEntered(0, 100); 
+}

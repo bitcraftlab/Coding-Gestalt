@@ -27,6 +27,9 @@ void setup()
       println("Error loading sample " + filenames[i]);
     }
   }
+  
+  setupOSC();
+  
 }
 
 void draw()

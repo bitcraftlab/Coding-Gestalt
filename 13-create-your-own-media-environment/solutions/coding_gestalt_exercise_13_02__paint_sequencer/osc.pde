@@ -1,5 +1,4 @@
 
-
 import oscP5.*;
 import netP5.*;
 
@@ -11,26 +10,26 @@ void setupOSC() {
    remote = new NetAddress(remotehost, remoteport);
 }
 
-// has the scanner entered a face?
-void faceEntered(int face, int ypos) {
+// has the scanner entered a pixel?
+void pixelEntered(int pixel, int ypos) {
   
-  println("SEND: Cell Entered (" + face + ", " + ypos +")");
+  println("SEND: Pixel Entered (" + pixel + ", " + ypos +")");
   
   // create + send OSC message
   OscMessage msg = new OscMessage("/sound/start");
-  msg.add(face).add(ypos);
+  msg.add(pixel).add(ypos);
   osc.send(msg, remote);  
   
 }
 
-// has the scanner left a face?
-void faceLeft(int face, int ypos) {
+// has the scanner left a pixel?
+void pixelLeft(int pixel, int ypos) {
   
-  println("SEND: Face Left (" + face + ", " + ypos + ")");
+  println("SEND: Pixel Left (" + pixel + ", " + ypos + ")");
   
   // create + send OSC message
   OscMessage msg = new OscMessage("/sound/stop");
-  msg.add(face).add(ypos);
+  msg.add(pixel).add(ypos);
   osc.send(msg, remote);  
  
 }
