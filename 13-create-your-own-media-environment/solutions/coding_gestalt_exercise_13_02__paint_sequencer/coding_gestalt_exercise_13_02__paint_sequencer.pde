@@ -7,7 +7,7 @@ float mx, my;
 boolean lineMode;
 boolean showGrid = true;
 color cursorColor = color(255, 0, 0, 100);
-
+int framesPerStep = 10;
 
 Mode mode = new PaintMode();
 Sequencer seq;
@@ -29,8 +29,10 @@ void draw() {
   // update mouse coordinates
   mode.update();
   
-  // draw sequencer
-  seq.step();
+  // draw sequencer every n'th frame
+  if(frameCount % framesPerStep == 0) {
+    seq.step();
+  }
   seq.draw();
 
   
