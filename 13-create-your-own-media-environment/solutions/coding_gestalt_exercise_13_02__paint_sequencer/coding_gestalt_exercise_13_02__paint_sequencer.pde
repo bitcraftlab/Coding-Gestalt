@@ -95,12 +95,11 @@ void mouseReleased() {
 
 void keyPressed() {
   switch(key) {
-  
-  case '1': mode = new PaintMode(); break;
-  case '2': mode = new LineMode(); break;
-  case '3': mode = new PolyMode(); break;
-  case '4': mode = new FillPolyMode(); break;
-  case '5': mode = new PointMode(); break;
+  case 'd': mode = new PaintMode(); break;
+  case 'l': mode = new LineMode(); break;
+  case 'p': mode = new PolyMode(); break;
+  case 'f': mode = new FillPolyMode(); break;
+  case '.': mode = new PointMode(); break;
 
 
   case ' ': mode.resetCursor(); break;  
@@ -109,5 +108,8 @@ void keyPressed() {
   case '-': d /=2; reset(); break;
   case '#': showGrid = !showGrid; break;
   }
+  
+  oscKeyPressed(key);
+  
 }
 
