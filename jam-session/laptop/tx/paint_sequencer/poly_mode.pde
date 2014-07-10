@@ -45,7 +45,7 @@ class PolyMode extends BaseMode {
     // call our fill function
     imgFill();
     
-    img.stroke(0);
+    pickColor();
 
     img.beginShape();
     for (PVector v: selection) {
@@ -76,7 +76,7 @@ class FillPolyMode extends PolyMode {
   }
   
   void imgFill() {
-    img.fill(0);
+    pickFillColor();
   }
   
   void cursorFill() {

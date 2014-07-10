@@ -40,6 +40,16 @@ abstract class BaseMode implements Mode {
     mx1 = my1 = mx2 = my2 = -1;
   }
   
+  void pickColor() { 
+    boolean shiftPressed = (keyPressed && keyCode == SHIFT);
+    img.stroke(shiftPressed ? 255 : 0); 
+  }
+  
+  void pickFillColor() {
+    boolean shiftPressed = (keyPressed && keyCode == SHIFT);
+    img.fill(shiftPressed ? 255 : 0); 
+  }
+    
   void mouseDragged() {}
   void mouseReleased() {}
   

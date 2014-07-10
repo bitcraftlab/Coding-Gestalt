@@ -19,7 +19,7 @@ class LineMode extends BaseMode {
       my2 = my;
       img.noSmooth();
       img.beginDraw();
-      img.stroke(0);
+      pickColor();
       img.line(mx1 - .5, my1 -.5, mx2 -.5, my2 - .5);
       img.endDraw();
     }

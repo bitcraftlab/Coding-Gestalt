@@ -28,9 +28,7 @@ class Sequencer {
     }
 
     pxray = xray;
-    
 
-    
   }
   
   void draw() {

@@ -12,7 +12,7 @@ class PointMode extends BaseMode {
   void mousePressed() {
     img.noSmooth();
     img.beginDraw();
-    img.stroke(0);
+    pickColor();
     img.point(mx - .5, my -.5);
     img.endDraw();
   }

@@ -18,7 +18,7 @@ class PaintMode extends BaseMode {
   void mouseDragged() {
     img.noSmooth();
     img.beginDraw();
-    img.stroke(0);
+    pickColor();
     img.line(mx1 - .5, my1 -.5, mx -.5, my - .5);
     img.endDraw();
     mx1 = mx;
