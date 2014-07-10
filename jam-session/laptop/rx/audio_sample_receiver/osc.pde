@@ -23,7 +23,7 @@ void setupOSC() {
 public void soundStart(int x, int y) {
   
   println("RECEIVE: Sound Start (" + x + ", " + y +")");
-  int pick = x % numSamples;
+  int pick = y % numSamples;
   samples[pick].trigger();
   
 }
@@ -31,7 +31,7 @@ public void soundStart(int x, int y) {
 public void soundStop(int x, int y) {
   
   println("RECEIVE: Sound Stop (" + x + ", " + y +")");
-  int pick = x % numSamples;
+  int pick = y % numSamples;
   samples[pick].stop();
 
 }
