@@ -107,9 +107,24 @@ void keyPressed() {
   case '+': d *=2; reset(); break;
   case '-': d /=2; reset(); break;
   case '#': showGrid = !showGrid; break;
+  
+  case 'S': saveSequence(); break;
+  case 'L': loadSequence(); break;
+  
   }
   
   oscKeyPressed(key);
   
+}
+
+void saveSequence() {
+  img.save("snapshot.png");  
+}
+
+void loadSequence() {
+  img.beginDraw();
+  img.background(255);
+  img.image(loadImage("snapshot.png"), 0, 0);
+  img.endDraw();
 }
 
