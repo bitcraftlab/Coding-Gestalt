@@ -5,24 +5,28 @@ int remoteport = 12000;
 
 // last digit of the IP address
 int[] osc_id = {
-  145, // MART
-  135, // CLEM
-  121, // RIHA
-  110, // LAUR
-  246, // LUIS
-  250, // ASHI
-  214  // ADRI
+  200, // MART
+  170, // ADRI
+  191, // SHIN
+  110, // BOOK
+  183, // ASHI
+  214, // CLEM
+  146, // LAUR
+  114, // LUIS
+  195  // RIHA
 };
 
 // names of the users
 String[] osc_name = {
   "MART",
+  "ADRI",
+  "SHIN",
+  "BOOK",
+  "ASHI",
   "CLEM",
-  "RIHA",
   "LAUR",
   "LUIS",
-  "ASHI",
-  "ADRI" 
+  "RIHA"
 };
 
 

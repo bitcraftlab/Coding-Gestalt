@@ -13,7 +13,7 @@ Mode mode = new PaintMode();
 Sequencer seq;
 
 void setup() {
-  size(512, 512);
+  size(800, 800);
   strokeCap(ROUND);
   strokeJoin(ROUND);
   setupOSC();
