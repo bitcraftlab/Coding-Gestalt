@@ -62,5 +62,13 @@ void captureEvent(Capture c) {
 }
 
 void keyPressed() {
+  switch(key) {
+    case '+':
+      seq.speedup();
+      break;
+    case '-':
+      seq.slowdown();
+      break;
+  }
   oscKeyPressed(key);
 }

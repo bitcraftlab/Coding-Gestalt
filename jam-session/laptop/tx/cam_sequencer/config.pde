@@ -13,7 +13,7 @@ int[] osc_id = {
   214, // CLEM
   146, // LAUR
   114, // LUIS
-  195  // RIHA
+  174  // RIHA
 };
 
 // names of the users

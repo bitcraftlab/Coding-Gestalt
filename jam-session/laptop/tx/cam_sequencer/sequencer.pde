@@ -2,10 +2,11 @@
 class Sequencer {
 
   int xray;
-  int speed = 20;
+  float speed = 40;
   OpenCV ocv;
   Rectangle[] faces;
   boolean[] inside;
+  float speedFactor = sqrt(2);
 
   Sequencer(OpenCV ocv) {
     this.ocv = ocv;
@@ -16,7 +17,7 @@ class Sequencer {
 
     // detect faces
     faces = opencv.detect();
-    xray = (xray + speed) % w;
+    xray = (xray + int(speed)) % w;
     
     for(int i = 0; i < faces.length; i++) {
       
@@ -40,6 +41,14 @@ class Sequencer {
       
     }
     
+  }
+  
+  void speedup() {
+    speed *= speedFactor;
+  }
+  
+  void slowdown() {
+    speed /= speedFactor; 
   }
 
   void draw() {

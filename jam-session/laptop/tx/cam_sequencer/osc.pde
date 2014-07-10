@@ -5,6 +5,7 @@ import netP5.*;
 OscP5 osc;
 NetAddress[] remotes;
 boolean[] target;
+int ysteps = 32;
 
 void setupOSC() {
    osc = new OscP5(this, localport);
@@ -50,7 +51,7 @@ void faceEntered(int id, int ypos) {
   
   // create + send OSC message
   OscMessage msg = new OscMessage("/sound/start");
-  msg.add(id).add(ypos);
+  msg.add(id).add( int( ysteps * ypos / height) );
 
   for(int i = 0; i < remotes.length; i++) {
     
@@ -71,7 +72,7 @@ void faceLeft(int id, int ypos) {
   
   // create + send OSC message
   OscMessage msg = new OscMessage("/sound/stop");
-  msg.add(id).add(ypos);
+  msg.add(id).add(int( ysteps * ypos / height));
   
   // send a message to all remotes
   for(int i = 0; i < remotes.length; i++) {
