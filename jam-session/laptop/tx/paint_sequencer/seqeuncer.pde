@@ -2,8 +2,8 @@
 class Sequencer {
 
   int xray, pxray;
-  int speed = 1;
   PImage img;
+  int speed = 1;
 
   Sequencer(PImage img) {
     this.img = img;
@@ -11,7 +11,7 @@ class Sequencer {
 
   void step() {
     
-    xray = (xray + speed) % w;
+    xray = (xray + speed + w) % w;
     
     // call pixel left for previous columt
     for (int y = 0; y < img.height; y++) {
@@ -29,6 +29,14 @@ class Sequencer {
 
     pxray = xray;
 
+  }
+  
+  void scanLeft() {
+    speed = -1; 
+  }
+  
+  void scanRight() {
+    speed = +1; 
   }
   
   void draw() {

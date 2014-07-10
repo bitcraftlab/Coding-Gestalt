@@ -111,6 +111,22 @@ void keyPressed() {
   case 'S': saveSequence(); break;
   case 'L': loadSequence(); break;
   
+  case CODED: switch(keyCode) {
+    case UP:
+      framesPerStep--;
+      break;
+    case DOWN:
+      framesPerStep++;
+      break;
+    case LEFT:
+      seq.scanLeft();
+      break;
+    case RIGHT:
+      seq.scanRight();
+      break;
+    }
+    framesPerStep = constrain(framesPerStep, 1, 30);
+  
   }
   
   oscKeyPressed(key);
