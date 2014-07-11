@@ -86,7 +86,11 @@ void loadSoundfont() {
   samples = new AudioSample[numSamples];
     
   for (int i = 0; i < numSamples; i++) {
-    samples[i] = minim.loadSample(filenames[i], bufSize); 
+    try {
+      samples[i] = minim.loadSample(filenames[i], bufSize);
+    } catch(NullPointerException e) {
+      println("Error loading sample " + filenames[i]);
+    }
     if ( samples[i] == null) {
       println("Error loading sample " + filenames[i]);
     }
