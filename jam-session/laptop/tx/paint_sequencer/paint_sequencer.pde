@@ -8,15 +8,18 @@ boolean lineMode;
 boolean showGrid = true;
 color cursorColor = color(255, 0, 0, 100);
 int framesPerStep = 10;
+boolean sendSnapshots;
 
 Mode mode = new PaintMode();
 Sequencer seq;
+SnapshotSender ss;
 
 void setup() {
-  size(800, 800);
+  size(500, 500);
   strokeCap(ROUND);
   strokeJoin(ROUND);
   setupOSC();
+  ss = new SnapshotSender();
   reset();
 }
 
@@ -63,6 +66,10 @@ void draw() {
     }
   }
 
+  // send Snapshots to MART
+  if(sendSnapshots) {
+    sendSnapshot();
+  }
  
 }
 
@@ -111,6 +118,10 @@ void keyPressed() {
   case 'S': saveSequence(); break;
   case 'L': loadSequence(); break;
   
+  case 'X': 
+    sendSnapshots = !sendSnapshots;
+    break;
+  
   case CODED: switch(keyCode) {
     case UP:
       framesPerStep--;
@@ -142,5 +153,11 @@ void loadSequence() {
   img.background(255);
   img.image(loadImage("snapshot.png"), 0, 0);
   img.endDraw();
+}
+
+void sendSnapshot() {
+   // send a snapshot to MART
+   PImage snap = get(0, 0, 500, 500);
+   ss.send(snap, getInetAddress(remoteprefix + osc_id[0]), snapshotport);
 }
 

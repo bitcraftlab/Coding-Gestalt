@@ -21,10 +21,12 @@ void setupOSC() {
 // use digit keys to toggle targets
 void oscKeyPressed(int key) {
   
+  
   // toggle individual targets
   if(key >= '1' && key <= '1' + target.length - 1) {
     int pick = key - '1';
     target[pick] = !target[pick];
+    showTargets();  
   }
   
   // turn off all targets
@@ -32,8 +34,9 @@ void oscKeyPressed(int key) {
      for(int i = 0; i < target.length; i++) {
        target[i] = false;
      }
+     showTargets();  
   }
-  showTargets();  
+
 }
 
 void showTargets() {
