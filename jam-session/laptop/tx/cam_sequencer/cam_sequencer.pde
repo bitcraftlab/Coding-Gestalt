@@ -4,6 +4,7 @@ import java.awt.Rectangle;
 
 Capture cam;
 OpenCV opencv;
+SnapshotSender ss;
 
 // input resolution
 int w = 320, h = 240;
@@ -12,6 +13,8 @@ int w = 320, h = 240;
 int zoom = 3;
 
 Sequencer seq;
+
+boolean sendSnapshots = false;
 
 
 
@@ -35,6 +38,9 @@ void setup() {
 
   setupOSC();
   
+  // Send Snapshots to MART
+  ss = new SnapshotSender();
+  
   // limit frameRate
   //frameRate(30);
 }
@@ -54,6 +60,10 @@ void draw() {
   seq.step();
   seq.draw();
   
+  if(sendSnapshots) {
+    sendSnapshot();
+  }
+  
 }
 
 // read a new frame when it's available
@@ -69,6 +79,17 @@ void keyPressed() {
     case '-':
       seq.slowdown();
       break;
+    case 'X': 
+      sendSnapshots = !sendSnapshots;
+      break;
   }
   oscKeyPressed(key);
+}
+
+
+void sendSnapshot() {
+   // send a snapshot to MART
+   PImage snap = get();
+   snap.resize(500, 500);
+   ss.send(snap, getInetAddress(remoteprefix + osc_id[0]), snapshotport);
 }
