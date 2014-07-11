@@ -3,8 +3,8 @@ PImage remoteimg;
 SnapshotReceiver sr;
 
 void setup() {
-  size(400, 400); 
-  remoteimg = createImage(400, 400, RGB);
+  size(500, 500); 
+  remoteimg = createImage(500, 500, RGB);
   sr = new SnapshotReceiver(remoteimg, remoteport);
 }
 
